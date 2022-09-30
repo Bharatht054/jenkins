@@ -1,0 +1,13 @@
+#!/bin/bash
+n=1
+while [ $n -gt o ] && [ $n -le 10 ]
+do
+num=1
+while [ $num -gt o ] && [ $num -le 10 ]
+do
+tables=`expr $n \* $num`
+echo "$n x $num = $tables"
+num=`expr $num + 1`
+done
+n=`expr $n + 1`
+done
